@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e1e8a8, #74d3e9);
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.status-box {
+  background-color: #116fc3;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.button-group button {
+  border: none;
+  padding: 18px 32px;
+  border-radius: 12px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-btn {
+  background-color: #e1b172;
+}
+
+.pause-btn {
+  background-color: #423ff7;
+}
+
+.reset-btn {
+  background-color: #a0eaf7;
+}
+
+.button-group button:hover {
+  transform: scale(1.05);
+}
+
+.mode-group {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.mode-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: #222;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mode-btn:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.session-text {
+  margin-top: 70px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #333;
+}
