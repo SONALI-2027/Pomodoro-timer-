@@ -1,16 +1,41 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A modern Pomodoro Timer Web App built using React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- 25-minute focus timer
+- Short break mode
+- Long break mode
+- Start / Pause / Reset controls
+- Real-time countdown
+- Session counter
+- Responsive design
+- Modern UI with gradients and animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Future Improvements:-
+● Add sound notification when the timer ends 
+● Allow users to customize timer durations 
+● Track number of completed sessions 
+● Dark mode toggle 
+● Add simple statistics (e.g., total focus time) 
+
+Working:-
+Developed a responsive Pomodoro Timer Web App using React, Vite, and Tailwind Css
+Implemented focus, short break, and long break modes with Start, Pause, and Reset functionality
+Added real-time countdown updates, session tracking, and dynamic UI rendering using React hooks
+Designed a modern and user-friendly interface with responsive layouts and smooth interactions
+
+
+
+## 👨‍💻 Author
+
+Sonali Rath
